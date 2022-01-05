@@ -22,7 +22,7 @@ def main():
     global length
     global play_game
     words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage"
-                   ,"plants","Jancok","whatever","idontevenknow","huh"]
+                   ,"plants","whatever","idontevenknow","huh"]
     word = random.choice(words_to_guess)
     length = len(word)
     count = 0
